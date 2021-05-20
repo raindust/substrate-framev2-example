@@ -47,6 +47,7 @@ sp-version = {default-features = false, version = '3.0.0', git = 'https://github
 
 # local dependencies
 pallet-template = {default-features = false, version = '3.0.0', path = '../pallets/template'}
+without-instance = {default-features = false, version = '3.0.0', path = '../pallets/without-instance'}
 
 [features]
 default = ['std']
